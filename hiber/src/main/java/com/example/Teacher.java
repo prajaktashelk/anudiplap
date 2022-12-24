@@ -1,7 +1,11 @@
 package com.example;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
+import java.util.List;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
 
 @Entity //  Use Entity annotation  to create table
 @Table(name="Teacher_Details") // change table name using Table Annotation
